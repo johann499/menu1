@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>pagina de J_R</title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+  <div class="navigation">
+   <div class="menuToggle"></div>
+   <ul>
+    <li class="list active" style="--clr: #00008b">
+     <a href="#">
+      <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+      <span class="text">inicio</span>
+     </a>
+    </li>
+    <li class="list" style="--clr: #2196f3">
+     <a href="#">
+      <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+      <span class="text">cuenta</span>
+     </a>
+    </li>
+    <li class="list" style="--clr: #006400">
+     <a href="#">
+      <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+      <span class="text">Mensages</span>
+     </a>
+    </li>
+    <li class="list" style="--clr: #0fc70f">
+     <a href="#">
+      <span class="icon"><ion-icon name="camera-outline"></ion-icon></span>
+      <span class="text">fotos</span>
+     </a>
+    </li>
+    <li class="list" style="--clr: #6b8e23">
+     <a href="#">
+      <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+      <span class="text">configuracion</span>
+     </a>
+    </li>
+    <!-- Nuevo icono 1 -->
+    <li class="list" style="--clr: #ff5722">
+     <a href="https://open.spotify.com/intl-es" onclick="handleClick(event)">
+      <span class="icon">
+       <ion-icon name="musical-notes-outline"></ion-icon>
+      </span>
+      <span class="text">Música</span>
+     </a>
+    </li>
+
+    <!-- Nuevo icono 2 -->
+    <li class="list" style="--clr: #673ab7">
+     <a href="#">
+      <span class="icon"><ion-icon name="planet-outline"></ion-icon></span>
+      <span class="text">navegador</span>
+     </a>
+    </li>
+   </ul>
+  </div>
+
+  <script
+   type="module"
+   src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+   nomodule
+   src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  <script src="app.js"></script>
+ </body>
+</html>
+
+<!boton¡>
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toggle</title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+  <div class="container">
+   <div class="toggleBtn" onclick="toggleModal()">☰</div>
+  </div>
+  <div class="modal" id="modal">
+   <div class="modal-content">
+    <span class="closeBtn" onclick="closeModal()">×</span>
+    <h2>hola muchachos</h2>
+    <p>
+     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum alias
+     officiis odio ullam? Omnis corporis vitae necessitatibus? Aliquid impedit
+     consequuntur qui consectetur, ab expedita quas rem odit pariatur quisquam
+     laborum?
+    </p>
+   </div>
+  </div>
+  <script src="./script.js"></script>
+ </body>
+</html>
